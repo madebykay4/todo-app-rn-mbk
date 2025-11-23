@@ -1,50 +1,87 @@
-# Welcome to your Expo app 👋
+# 📱 React Native Todo App (Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple, clean, and functional mobile Todo application built with **React Native** and **Expo**.  
+Developed as part of my journey into becoming a full-stack and mobile app developer — and yes, this project also survived missing dependencies, typo gremlins, and the occasional *“Why isn’t this rendering???”* moment.
 
-## Get started
+![React Native](https://img.shields.io/badge/React%20Native-0.74-%2361DAFB)
+![Expo](https://img.shields.io/badge/Expo-Latest-black)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📸 App Preview
 
-2. Start the app
+> **Screenshots coming soon**  
+> *(A screen recording will also be added once the UI is finalized.)*
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🌟 Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- ✅ Add todos  
+- ✏️ Edit todos  
+- ❌ Delete todos  
+- 🌗 Dark / Light mode toggle  
+- 📱 Fully responsive mobile UI  
+- ⚡ Smooth UI interactions  
+- 🧠 State management with Zustand  
+- 🔧 Clean, reusable components  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🧩 Tech Stack
 
-When you're ready, run:
+- **Framework**: React Native (Expo)
+- **State Management**: Zustand
+- **Navigation**: React Navigation
+- **Styling**: Custom Stylesheets / Tailwind (depending on your version)
+- **Testing/Preview**: Expo Go, iOS Simulator, Android Emulator
+- **Tutorial By**: Codesistency
 
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the Repository
+git clone https://github.com/madebykay4/todo-app-rn-mbk
 ```bash
-npm run reset-project
+cd todo-app-rn-mbk
 ```
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+### 3️⃣ Run the App
+```bash
+npx expo start
+```
+Then scan the QR code in Expo Go or run it on an Android/iOS simulator.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 📖 Lessons Learned
+**Component Organization**
+Structuring screens & shared components early prevents chaos.
 
-## Learn more
+**State Management**
+Zustand is lightweight, intuitive, and great for small-to-mid apps.
 
-To learn more about developing your project with Expo, look at the following resources:
+**Debugging React Native**
+Metro logs, device logs, Expo dev tools, and RN Debugger are essential.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**Cross-Platform Differences**
+iOS and Android handle spacing, shadows, and font rendering differently.
 
-## Join the community
+### 🐛 Common Issues & Fixes
+**Issue	Solution**
+- Metro bundler stuck on "Loading..."	Run npx expo start -c to clear cache
+- State not updating	Ensure Zustand set functions return new state
+- App crash on launch	Fix missing imports / remove circular dependencies
+- Dark mode not applying	Wrap navigation in a global theme provider
 
-Join our community of developers creating universal apps.
+## 🎥 Tutorial Credit
+This project is based on the tutorial by Codesistency:
+🔗 https://www.youtube.com/watch?v=G1XiiXTQHSE
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Highly recommended for anyone learning React Native the practical way.
+#
+### 👩‍💻 Author - Kaylyn Groom
+**Full-Stack Dev in training • Mobile App Developer • Multi-disciplinary Creative**
